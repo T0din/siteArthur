@@ -25,6 +25,7 @@ footer {
 	margin-right: -35%;
 	background: #222222;
 	border-radius: 7em 7em 0.5em 0.5em;
+	position: relative;
 }
 #footer_ul
 {
@@ -77,10 +78,14 @@ nav
 nav a {
 	font-size: 1.5em;
 	font-weight: bold;
+	margin-left: 0.8em;
+	margin-right: 0.8em;
 
 }
 nav a:hover {
 	color:darkgrey;
+	font-size: 2em;
+	text-decoration: none;
 }
 #logo
 {
@@ -104,4 +109,25 @@ a
 {
 	color: black;
     text-decoration: none;
+}
+form {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#img_7th_sea {
+	width: 20em;
+	height: 10em;
+	position: absolute;
+	left: 5%;
+	z-index: 1;
+	
+}
+#img_ptg {
+	width: 15em;
+	height: 7em;
+	z-index: 1;
+	position: absolute;
+	right: 5%;
+	
 }

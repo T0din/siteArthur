@@ -4,6 +4,7 @@
 		<head>
 
 			<meta charset="utf-8">
+			<link rel="stylesheet" href="reset.css" />
 			<link rel="stylesheet" href="Css_site_arthur.css" />
 			<title>Arthur Camboly Traductions / Agnlais - Français</title>
 
@@ -17,7 +18,7 @@
 			<ul id="Menu">
 				<li id="accueil_nav"><a href="#Acceuil"> Acceuil</a> </li>
 				<li id="presentation_nav"><a href="#Presentation"> Présentation</a> </li>
-				<li class="contact_nav"><a href="#Contact"> Contact</a> </li>
+				<li class="contact_nav"><a href="./contact.php"> Contact</a> </li>
 				<li id="articles_nav"><a href="#Articles"> Articles</a> </li>
 				<li id="projets_nav"><a href="#Projets">  Projets</a> </li>
 			</ul>
@@ -64,7 +65,7 @@
 					</ul>
 				</li>
 				<li><ul><h2>En savoir plus</h2> </li>
-						<li id="mentionslegales"><a href="#mentionslegales"> Mentions légales</a> </li>
+						<li id="mentionslegales"><a href="./mention_legales.php"> Mentions légales</a> </li>
 						<li class="contact_nav"><a href="#Contact"> Contact</a> </li>
 					</ul>
 			</ul>
